@@ -4,12 +4,12 @@ import streamlit as st
 # import os
 # from dotenv import load_dotenv
 
-# Load environment variables
-load_dotenv()
-REPLICATE_API_TOKEN = os.getenv("REPLICATE_API_TOKEN")  # Fetch the API token from .env
+# # Load environment variables
+# load_dotenv()
+# REPLICATE_API_TOKEN = os.getenv("REPLICATE_API_TOKEN")  # Fetch the API token from .env
 
-# Initialize the Replicate client with the API token
-replicate_client = replicate.Client(api_token=REPLICATE_API_TOKEN)
+# # Initialize the Replicate client with the API token
+# replicate_client = replicate.Client(api_token=REPLICATE_API_TOKEN)
 
 st.title("Personalized Nutritious Meal Suggestion")
 
